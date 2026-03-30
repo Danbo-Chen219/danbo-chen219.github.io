@@ -48,7 +48,7 @@ I am **actively seeking Summer / Fall 2026 internships** as a **Data Science**, 
 
 <span class='anchor' id='-publications'></span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAEA 2026</div><img src='images/projects/poster_img_0.png' alt="AI Energy RAG Pipeline" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAEA 2026</div><img src='images/projects/image.png' alt="AI Energy RAG Pipeline" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **The Energy Cost of Artificial Intelligence: Modeling AI-Driven Data Center Electricity Demand with LLM Predictions**
