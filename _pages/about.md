@@ -3,56 +3,85 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a **PhD candidate at The Ohio State University** and an **M.S. CS student at Georgia Tech**, working at the intersection of machine learning, causal inference, and computational economics. My research builds production-oriented models and decision systems — from RAG-based LLM pipelines over financial filings to Transformer sequence models trained on parallel corpora.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am **actively seeking Summer / Fall 2026 internships** as a **Data Science**, **Machine Learning**, or **Applied Scientist** intern. I bring rigorous statistical training, hands-on deep learning implementation experience, and the ability to translate complex data into clear, actionable insights.
 
+---
+
+# 🛠 Technical Skills
+
+<span class='anchor' id='-technical-skills'></span>
+
+**Languages & Frameworks**
+
+| Category | Tools |
+|---|---|
+| Languages | Python · R · SQL · Bash |
+| ML / DL | PyTorch · scikit-learn · XGBoost · Hugging Face Transformers |
+| LLM & NLP | LangChain · RAG pipelines · FAISS · OpenAI API · sentence-transformers |
+| Causal Inference | DoWhy · EconML · DID · IV · RDD · Synthetic Control |
+| Data Engineering | Pandas · NumPy · Spark · SQL · web scraping (SEC EDGAR, REST APIs) |
+| Geospatial | Google Earth Engine · GeoPandas · Landsat 8 / Sentinel-2 |
+| Cloud & MLOps | AWS (S3 · EC2 · SageMaker) · Docker · Git |
+| Statistics | Bayesian inference · forecasting · time-series · A/B testing |
+
+---
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+<span class='anchor' id='-news'></span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+- *2026.03* &nbsp; Actively seeking DS / ML / Applied Scientist **internships** — Summer / Fall 2026.
+- *2026.XX* &nbsp; Paper accepted at AAEA 2026: *The Energy Cost of Artificial Intelligence*.
+
+---
+
+# 📝 Research & Publications
+
+<span class='anchor' id='-publications'></span>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAEA 2026</div><img src='images/projects/poster_img_0.png' alt="AI Energy RAG Pipeline" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**The Energy Cost of Artificial Intelligence: Modeling AI-Driven Data Center Electricity Demand with LLM Predictions**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Danbo Chen**, Zijun Zhou (Meta Platform)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*American Agricultural Economics Association (AAEA) Conference, 2026*
+
+- Built a RAG + LLM pipeline (LangChain · FAISS · GPT-4o-mini) over SEC EDGAR filings and ESG reports to extract firm-level data center investment signals for six hyperscalers.
+- Forecasted AI electricity demand 2025–2030; projected **239–295 TWh by 2030** (13–17% CAGR from 118 TWh baseline).
+- Constructed a **Regional Power Stress Index (PSI)** identifying >10 high-stress grid corridors from spatially concentrated AI compute.
+
+[\[Paper\]](/files/paper_project1.pdf) &nbsp; [\[Poster\]](/files/poster_project1.pdf) &nbsp; [\[Projects\]](/projects/)
+
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- \[Additional working paper or publication\], \[Authors\], *\[Venue, Year\]*
+
+---
+
+# 📖 Education
+
+<span class='anchor' id='-educations'></span>
+
+- Ph.D., Applied Economics, **The Ohio State University**, Columbus, OH
+- M.S., Computer Science, **Georgia Institute of Technology**
+
+---
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='-honors-and-awards'></span>
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *20XX*, \[Fellowship / Award\], \[Granting Institution\]
+- *20XX*, \[Scholarship / Honorable Mention\], \[Granting Institution\]
