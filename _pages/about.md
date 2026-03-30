@@ -27,10 +27,10 @@ I am **actively seeking Summer / Fall 2026 internships** as a **Data Science**, 
 | Languages | Python · R · SQL · Bash |
 | ML / DL | PyTorch · scikit-learn · XGBoost · Hugging Face Transformers |
 | LLM & NLP | LangChain · RAG pipelines · FAISS · OpenAI API · sentence-transformers |
-| Causal Inference | DoWhy · EconML · DID · IV · RDD · Synthetic Control |
+| Causal Inference | EconML · DID · IV · RDD · Synthetic Control |
 | Data Engineering | Pandas · NumPy · Spark · SQL · web scraping (SEC EDGAR, REST APIs) |
 | Geospatial | Google Earth Engine · GeoPandas · Landsat 8 / Sentinel-2 |
-<!-- | Cloud & MLOps | AWS (S3 · EC2 · SageMaker) · Docker · Git | -->
+
 | Statistics | Bayesian inference · forecasting · time-series · A/B testing |
 
 ---
