@@ -30,7 +30,7 @@ I am **actively seeking Summer / Fall 2026 internships** as a **Data Science**, 
 | Causal Inference | DoWhy · EconML · DID · IV · RDD · Synthetic Control |
 | Data Engineering | Pandas · NumPy · Spark · SQL · web scraping (SEC EDGAR, REST APIs) |
 | Geospatial | Google Earth Engine · GeoPandas · Landsat 8 / Sentinel-2 |
-| Cloud & MLOps | AWS (S3 · EC2 · SageMaker) · Docker · Git |
+<!-- | Cloud & MLOps | AWS (S3 · EC2 · SageMaker) · Docker · Git | -->
 | Statistics | Bayesian inference · forecasting · time-series · A/B testing |
 
 ---
@@ -40,7 +40,7 @@ I am **actively seeking Summer / Fall 2026 internships** as a **Data Science**, 
 <span class='anchor' id='-news'></span>
 
 - *2026.03* &nbsp; Actively seeking DS / ML / Applied Scientist **internships** — Summer / Fall 2026.
-- *2026.XX* &nbsp; Paper accepted at AAEA 2026: *The Energy Cost of Artificial Intelligence*.
+- *2026.06* &nbsp; Paper accepted at AAEA 2026: *The Energy Cost of Artificial Intelligence*.
 
 ---
 
@@ -79,9 +79,9 @@ I am **actively seeking Summer / Fall 2026 internships** as a **Data Science**, 
 
 ---
 
-# 🎖 Honors and Awards
+<!-- # 🎖 Honors and Awards
 
 <span class='anchor' id='-honors-and-awards'></span>
 
 - *20XX*, \[Fellowship / Award\], \[Granting Institution\]
-- *20XX*, \[Scholarship / Honorable Mention\], \[Granting Institution\]
+- *20XX*, \[Scholarship / Honorable Mention\], \[Granting Institution\] -->
