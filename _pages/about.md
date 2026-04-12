@@ -70,6 +70,71 @@ I am **actively seeking Summer / Fall 2026 internships** as a **Data Science**, 
 
 ---
 
+# 💡 Projects
+
+<span class='anchor' id='-projects'></span>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Research</div><img src='images/projects/poster_img_1.png' alt="Global Data Center Siting" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Global AI Data Center Siting: Spatial Econometrics and Strategic Firm Behavior**
+
+**Danbo Chen** (The Ohio State University)
+
+*Working Paper*
+
+- Identified five strategic siting archetypes among hyperscalers using a firm–determinant intensity matrix built from geospatial, policy, and infrastructure data.
+- Modeled siting probability across North America, Western Europe, and Asia–Pacific using location characteristics (renewable access, policy corridors, connectivity, PUE).
+- Key finding: >90% of AI compute concentrates in 12 metro regions; siting is driven by grid reliability and policy incentives rather than user proximity.
+
+`Python` `GeoPandas` `Google Earth Engine` `Sentinel-2` `Spatial Econometrics` `S&P Capital IQ`
+
+[\[Paper\]](/files/paper_project1.pdf) &nbsp; [\[Projects\]](/projects/)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/projects/consumer_output1.png' alt="Consumer Shopping Behaviour Analysis" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Consumer Shopping Behaviour Analysis — 2026**
+
+**Danbo Chen**
+
+*Full-Stack Data Science Portfolio Project*
+
+- Built an interactive Plotly KPI dashboard and 14-section visual analysis (Sankey, Sunburst, radar charts, heatmaps) on 11,789 consumers.
+- Trained and benchmarked RF / GBM / XGBoost / LightGBM classifiers with 5-fold CV and SHAP explainability; GBM regression for online spend prediction.
+- Applied causal inference pipeline: structural path model (logit + OLS), bootstrap mediation (95% CI), and propensity-score matching (ATT) to isolate spending drivers.
+
+`Python` `scikit-learn` `XGBoost` `LightGBM` `SHAP` `Plotly` `Statsmodels` `K-Means` `PCA` `Propensity Score Matching`
+
+[\[Notebook\]](/files/consumer.html) &nbsp; [\[Projects\]](/projects/)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CS 7643 · GT</div><img src='images/projects/nlp_transformer_curve.png' alt="NMT Transformer vs Seq2Seq" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Neural Machine Translation: From LSTM to Transformer — A Bottom-Up Implementation Study**
+
+**Danbo Chen**
+
+*CS 7643 Deep Learning, Georgia Institute of Technology, Spring 2026*
+
+- Implemented LSTM, Seq2Seq with attention, Transformer encoder, and full Transformer from scratch in PyTorch on the Multi30k English↔German dataset.
+- Full Transformer achieved val perplexity of **6.9** vs Seq2Seq's **25.4** — 3.7× lower — while training 2× faster per epoch.
+
+`Python` `PyTorch` `Transformer` `Seq2Seq` `LSTM` `Attention` `Multi30k`
+
+[\[Projects\]](/projects/)
+
+</div>
+</div>
+
+---
+
 # 📖 Education
 
 <span class='anchor' id='-educations'></span>
