@@ -61,7 +61,7 @@ I am **actively seeking Summer / Fall 2026 internships** as a **Data Science**, 
 - Forecasted AI electricity demand 2025–2030; projected **239–295 TWh by 2030** (13–17% CAGR from 118 TWh baseline).
 - Constructed a **Regional Power Stress Index (PSI)** identifying >10 high-stress grid corridors from spatially concentrated AI compute.
 
-[\[Paper\]](/files/paper_project1.pdf) &nbsp; [\[Poster\]](/files/poster_project1.pdf) &nbsp; [\[Projects\]](/projects/)
+[\[Paper\]](https://arxiv.org/abs/2604.06198) &nbsp; [\[Poster\]](/files/poster_project1.pdf) &nbsp; [\[Projects\]](/projects/)
 
 </div>
 </div>
@@ -89,7 +89,7 @@ I am **actively seeking Summer / Fall 2026 internships** as a **Data Science**, 
 
 `Python` `GeoPandas` `Google Earth Engine` `Sentinel-2` `Spatial Econometrics` `S&P Capital IQ`
 
-[\[Paper\]](/files/paper_project1.pdf) &nbsp; [\[Projects\]](/projects/)
+[\[Paper\]](https://arxiv.org/abs/2604.06198) &nbsp; [\[Projects\]](/projects/)
 
 </div>
 </div>

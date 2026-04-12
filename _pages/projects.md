@@ -34,7 +34,7 @@ Built a **RAG + LLM pipeline** to extract and synthesize firm-level data center 
 
 `Python` `LangChain` `FAISS` `GPT-4o-mini` `all-MiniLM-L6-v2` `Google Earth Engine` `Landsat 8` `Pandas` `SQL`
 
-[\[Paper\]](/files/paper_project1.pdf) [\[Poster\]](/files/poster_project1.pdf)
+[\[Paper\]](https://arxiv.org/abs/2604.06198) [\[Poster\]](/files/poster_project1.pdf)
 
 </div>
 </div>
@@ -62,7 +62,7 @@ Identified five strategic siting archetypes among hyperscalers using a **firm–
 
 `Python` `GeoPandas` `Google Earth Engine` `Sentinel-2` `Spatial Econometrics` `S&P Capital IQ`
 
-[\[Paper\]](/files/paper_project1.pdf)
+[\[Paper\]](https://arxiv.org/abs/2604.06198)
 
 </div>
 </div>
