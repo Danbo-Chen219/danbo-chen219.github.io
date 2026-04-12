@@ -132,22 +132,27 @@ Implemented and compared four neural sequence models for English↔German transl
 <div class='paper-box-image'>
 <div>
 <div class="badge">Project</div>
-<img src='/images/500x300.png' alt="Data Engineering / ML Pipeline Project" width="100%">
+<img src='/images/projects/consumer_output1.png' alt="Consumer Shopping Behaviour Analysis" width="100%">
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
-**\[Large-Scale Data Analysis / ML Pipeline Project Title\]**
+**Consumer Shopping Behaviour Analysis — 2026**
 
 **Danbo Chen**
 
-*\[Venue / Working Paper / Course Project\]*
+*Full-Stack Data Science Portfolio Project*
 
-\[Brief description: what dataset or data source was processed, what pipeline or model was built, how it scaled, and what business or research question it answered.\]
+End-to-end analysis of 11,789 consumers across demographic, digital, behavioural, and spending dimensions. Built a full ML pipeline covering **EDA**, **feature engineering**, **K-Means clustering**, **multi-class classification**, and **regression**, with **SHAP** explainability to interpret model predictions. Produced an interactive dashboard summarizing shopping preferences, city-tier breakdowns, and spend-channel splits.
 
-`Python` `Spark` `SQL` `scikit-learn` `\[cloud platform\]` `\[other tools\]`
+- **Dashboard & Visualization** — Interactive Plotly KPI dashboard; Sankey, Sunburst, Parallel Coordinates, radar charts, and seaborn heatmaps across 14 analytical sections
+- **Machine Learning** — K-Means clustering (4 consumer personas via PCA); multi-class classifier benchmarking RF, GBM, XGBoost, LightGBM with 5-fold CV; GBM regression for online spend with SHAP beeswarm explainability
+- **Causal Inference** — Structural path model (logit: latent traits → preference; OLS: preference → spend); bootstrap mediation with 95% CI; propensity-score matching (ATT) to isolate spending differences net of selection bias
+- **Feature Engineering** — Composite digital score, channel-mix ratio, income/age cohort bins; full `StandardScaler` + `LabelEncoder` pipeline
 
-[\[Paper\]]() [\[Code\]]()
+`Python` `scikit-learn` `XGBoost` `LightGBM` `SHAP` `Plotly` `Seaborn` `Statsmodels` `K-Means` `PCA` `Propensity Score Matching`
+
+[\[Notebook\]](/files/consumer.html)
 
 </div>
 </div>
